@@ -1,7 +1,7 @@
 import json
 from urllib.parse import parse_qs
-from math_functions import factorial, fibonacci
-from utils import send_json_response, get_body
+from .math_functions import factorial, fibonacci
+from .utils import send_json_response, get_body
 
 async def handle_request(scope, receive, send):
     method = scope['method']

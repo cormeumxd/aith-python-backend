@@ -1,4 +1,4 @@
-from asgi import handle_request
+from .asgi import handle_request
 
 async def app(scope, receive, send):
     assert scope['type'] == 'http'
