@@ -6,3 +6,7 @@ pip install requirements.txt
 ```
 uvicorn app.main:app
 ```
+Тесты:
+```
+pytest tests/tests.py
+```
