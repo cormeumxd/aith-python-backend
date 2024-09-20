@@ -4,3 +4,4 @@ docker-compose.yml
 __pycache__
 .venv
 .pytest_cache
+.gitignore
