@@ -2,7 +2,7 @@
 ```
 pip install requirements.txt
 ```
-Запустите приложение из папки `app`:
+Запустите приложение:
 ```
-uvicorn main:app
+uvicorn app.main:app
 ```
